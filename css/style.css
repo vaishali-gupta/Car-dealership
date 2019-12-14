@@ -1,0 +1,204 @@
+body{
+    font-family: "Open-Sans", sans-serif; 
+}
+
+.site-header{
+    border-bottom: 1px solid #e6e2e2;
+    padding: 0;
+    background: #fff;
+
+}
+.site-header .main_header{
+    padding: 27px 20px;;
+}
+.nav-item .user_profile{
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 3px 10px;
+}
+.nav-item a{
+    color: #000;
+}
+.main_nav{
+    border-bottom: 1px solid #e6e2e2;
+    background: #fff;
+    padding: 0;
+    top:11.7%;
+}
+
+#carouselExampleControls .carousel-item img{
+    height:500px;
+}
+.content-left{
+    float: left;
+}
+.content-right{
+    float: right;
+}
+.browse-header{
+    
+    border-bottom: 1px solid #bbb;
+}
+.controls-top a{
+    position: absolute;
+    z-index: 1;
+}
+.controls-top a.left{
+    left: 0;
+    top:15px;
+}
+.controls-top a.right{
+    right: 0;
+    top:15px;
+}
+
+#multiItemExample .carousel-inner .carousel-item p {
+    font-size: 10px;
+    margin: 0;;
+}
+.browse-body{
+    border-bottom: 1px solid #bbb;
+}
+
+.recent_listed .card{
+    border: 0px;
+}
+
+.carousel-indicators li{
+    background-color: #000;
+}
+#multi-item-example2 .carousel-inner .carousel-item .card-body h6{
+ margin: 0;
+}
+#multi-item-example2 .carousel-inner .carousel-item .card-body p small{
+    color: #9c9a9a;
+   }
+.badge{
+    position: absolute;
+    top:5px;
+    left: 5px;
+}
+.badge2{
+    top:25px;
+}
+#multi-item-example2 .card a:hover{
+    opacity: 0.4;
+    transition: all 0.3s ease 0.1s;
+}
+.car_company{
+    background-color: #F9F9F9;
+    padding: 30px;
+}
+#multi-item-example3 .card{
+    background-color: transparent;
+    border:0px;
+}
+.footer{
+    background-color: #2f2f2f;
+    color:#fff;
+    padding: 30px;
+}
+.footer .list-group-item{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+    padding: 12px 5px;
+    font-size: 13px;
+    color: #999;
+}
+.footer hr{
+    border-color: rgba(255,255,255,.05);
+}
+.footer p{
+    font-size: 13px;
+    color: #999;
+}
+.bottom-footer{
+    background-color:#252525;
+    color: #bbb;
+}
+.bottom-footer .social-icons i{
+    font-size: 13px ;
+}
+.bottom-footer .social-icons .btn{
+    padding: 2px;
+}
+.bottom-footer .btn-social-icon{
+    height: 25px;
+    width: 25px;
+}
+.bottom-footer .btn-social-icon>:first-child{
+    top:-4px;
+}
+.browse-header .social i{
+    font-size: 20px;
+}
+.toggle_btn{
+    padding-top: 9px ;
+}
+.browse-header .toggle_btn a{
+    color: #000;
+}
+.main_nav{
+    color: rgba(0,0,0,.5);
+}
+.main_carousel{
+    position: relative;
+}
+.search_panel{
+    position: absolute;
+    top: -1px;
+    background: #fff;
+    left: 12%;
+    border-top: 2px solid #17a2b8;
+    padding: 30px 0px 20px;
+    width: 77%;
+    z-index: 100;
+}
+.search_panel form label{
+    margin: 0;
+    color: #807c7c;
+    font-size:15px;    
+}
+.custom-control-label::before{
+    top: 3px;
+}
+.main_nav .dropdown-item{
+    border-bottom:1px dashed #ddd;
+}
+.main_nav .dropdown a:last-child{
+    border:0;
+}
+.modal-header{
+    padding: 6px 26px;
+}
+.main_carousel .carousel-control-prev{
+    background: #000;
+    height: 100px;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    width: 100px;
+    opacity: 0.6;
+    top: 35%;
+}
+.main_carousel .carousel-control-next{
+    background: #000;
+    height: 100px;
+    border-bottom-left-radius: 100%;
+    border-top-left-radius: 100%;
+    width: 100px;
+    opacity: 0.6;
+    top: 35%;
+}
+.logo_header img{
+    height: 95px;
+}
+
+
+@media only screen and (max-width: 600px){
+    #multi-item-example3 .carousel-inner .carousel-item .card a img{
+        width: 100px;
+        height: 100px;
+    }
+
+}
