@@ -2,7 +2,11 @@
   "name": "car_dealership",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.html"
+  },
+  "engines" : { 
+    "node" : "12" 
+  },
   "scripts": {
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "clean": "rimraf dist",
